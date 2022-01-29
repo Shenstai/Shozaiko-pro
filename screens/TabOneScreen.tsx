@@ -10,7 +10,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'Homepag
   return (
     <View style={styles.container}>
       <View style={styles.content}>
-        <Image style={styles.image} source={require('../shozaiko.png')} />
+        <Image style={styles.image} source={require('../src/images/shozaiko.png')} />
         <Text style={styles.descText}>Welcome to Shozaiko!</Text>
         <Text style={styles.descText}>ようこそ！</Text>
       </View>

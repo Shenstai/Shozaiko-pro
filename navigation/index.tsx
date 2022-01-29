@@ -16,6 +16,7 @@ import ModalScreen from '../screens/ModalScreen';
 import NotFoundScreen from '../screens/NotFoundScreen';
 import TabOneScreen from '../screens/TabOneScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
+import TabThreeScreen from '../screens/TabThreeScreen';
 import { RootStackParamList, RootTabParamList, RootTabScreenProps } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons'; 
@@ -93,6 +94,15 @@ function BottomTabNavigator() {
       component={NotFoundScreen}
       options = {{
         title: 'About Us',
+        tabBarIcon: ({ color }) => <Ionicons name="ios-newspaper" size={24} color="black" />
+      }}
+      />
+
+<BottomTab.Screen
+      name = "API"
+      component={TabThreeScreen}
+      options = {{
+        title: 'API',
         tabBarIcon: ({ color }) => <Ionicons name="ios-newspaper" size={24} color="black" />
       }}
       />

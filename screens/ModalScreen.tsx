@@ -14,10 +14,10 @@ export default function TabTwoScreen({ navigation }: RootTabScreenProps<'NoveLis
 
       <ScrollView style={styles.scroll1} horizontal > 
 
-      <Image style={styles.images} source={require('../a1.jpg')}/>
-      <Image style={styles.images} source={require("../a2.jpg")}/>
-      <Image style={styles.images} source={require('../a3.jpg')}/>
-      <Image style={styles.images} source={require('../a4.jpg')}/>
+      <Image style={styles.images} source={require('../src/images/a1.jpg')}/>
+      <Image style={styles.images} source={require('../src/images/a2.jpg')}/>
+      <Image style={styles.images} source={require('../src/images/a3.jpg')}/>
+      <Image style={styles.images} source={require('../src/images/a4.jpg')}/>
       
       </ScrollView>
 
@@ -25,30 +25,30 @@ export default function TabTwoScreen({ navigation }: RootTabScreenProps<'NoveLis
       <Text style={styles.title}>Fall Novels 2022</Text>
       <ScrollView style={styles.scroll2} horizontal> 
 
-      <Image style={styles.images} source={require('../b1.jpg')}/>
-      <Image style={styles.images} source={require("../b2.jpg")}/>
-      <Image style={styles.images} source={require('../b3.jpg')}/>
-      <Image style={styles.images} source={require('../b4.jpg')}/>
+      <Image style={styles.images} source={require('../src/images/b1.jpg')}/>
+      <Image style={styles.images} source={require("../src/images/b2.jpg")}/>
+      <Image style={styles.images} source={require('../src/images/b3.jpg')}/>
+      <Image style={styles.images} source={require('../src/images/b4.jpg')}/>
 
       
       </ScrollView>
       <Text style={styles.title}>Winter Novels 2022</Text>
       <ScrollView style={styles.scroll3} horizontal> 
 
-    <Image style={styles.images} source={require('../c1.png')}/>
-    <Image style={styles.images} source={require("../c2.png")}/>
-    <Image style={styles.images} source={require('../c3.png')}/>
-    <Image style={styles.images} source={require('../c4.jpg')}/>
+    <Image style={styles.images} source={require('../src/images/c1.png')}/>
+    <Image style={styles.images} source={require("../src/images/c2.png")}/>
+    <Image style={styles.images} source={require('../src/images/c3.png')}/>
+    <Image style={styles.images} source={require('../src/images/c4.jpg')}/>
 
 
 </ScrollView>
 <Text style={styles.title}>Spring Novels 2022</Text>
 <ScrollView style={styles.scroll4} horizontal> 
 
-    <Image style={styles.images} source={require('../d1.jpg')}/>
-    <Image style={styles.images} source={require("../d2.jpg")}/>
-    <Image style={styles.images} source={require('../d3.jpg')}/>
-    <Image style={styles.images} source={require('../d4.jpg')}/>
+    <Image style={styles.images} source={require('../src/images/d1.jpg')}/>
+    <Image style={styles.images} source={require("../src/images/d2.jpg")}/>
+    <Image style={styles.images} source={require('../src/images/d3.jpg')}/>
+    <Image style={styles.images} source={require('../src/images/d4.jpg')}/>
 
 
 </ScrollView>

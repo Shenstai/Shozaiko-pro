@@ -29,6 +29,7 @@ export type RootTabParamList = {
   Featured: undefined;
   NoveList: undefined;
   AboutUs: undefined;
+  API: undefined;
 };
 
 export type RootTabScreenProps<Screen extends keyof RootTabParamList> = CompositeScreenProps<

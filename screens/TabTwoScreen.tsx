@@ -23,8 +23,8 @@ export default function TabTwoScreen({ navigation }: RootTabScreenProps<'NoveLis
       <Text style={styles.startText}>Solo Leveling</Text>
       </TouchableOpacity>
 
-  <Image style={styles.images} source={require('../academia.jpg')}/>
-  <Image style={styles.images} source={require("../sollolevelling.png")}/>
+  <Image style={styles.images} source={require('../src/images/academia.jpg')}/>
+  <Image style={styles.images} source={require("../src/images/sollolevelling.png")}/>
   
  
        </ScrollView>
@@ -38,8 +38,8 @@ export default function TabTwoScreen({ navigation }: RootTabScreenProps<'NoveLis
       <Text style={styles.startText}>Classroom of the Elite</Text>
       </TouchableOpacity>
 
-  <Image style={styles.images1} source={require('../konosuba.jpg')}/>
-  <Image style={styles.images1} source={require("../classromelite.jpg")}/>
+  <Image style={styles.images1} source={require('../src/images/konosuba.jpg')}/>
+  <Image style={styles.images1} source={require("../src/images/classromelite.jpg")}/>
   
  
        </ScrollView>
